@@ -47,9 +47,10 @@ class SuratController extends Controller
     public function store(Request $request)
     {        
         // $this->validate($request, [
-        //     'bengkel_code' => 'required',
-        //     'bengkel_name' => 'required',
-        //     'address' => 'required'
+        //     'unit_kerja' => 'required',
+        //     'jabatan_id' => 'required',
+        //     'pegawai_id' => 'required',
+        //     'redaksi' => 'required'
         // ]);
 
         $date_time = new DateTime;        
